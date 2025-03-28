@@ -24,6 +24,7 @@
 let wordToReverse = "welcome to gomycode";
 console.log(wordToReverse); // print "welcome to gomycode" at this point
 
+// example 1
 // function to reverse the entire string
 function reverseStr() {
   let reverseword = ""; // declaring an empty string to store the reverse word
@@ -48,3 +49,13 @@ function rev() {
   console.log(reverseword);
 }
 rev(); // run the function
+
+// function to count the numbers of character in a string
+function countStr() {
+  count = 0;
+  for (let numBase = 0; numBase <= wordToReverse.length - 1; numBase++) {
+    count++;
+  }
+  console.log(count);
+}
+countStr();
